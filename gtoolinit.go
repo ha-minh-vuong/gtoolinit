@@ -42,7 +42,9 @@ func main() {
 	for _, t := range tools {
 		targs := append(args, t)
 		if err := exec.Command(cmd, targs...).Run(); err != nil {
+			fmt.Print(t, "  x ")
 			fmt.Fprintln(os.Stderr, err)
+			continue
 		}
 		fmt.Printf("%v  √\n", t)
 	}
