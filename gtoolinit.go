@@ -11,6 +11,7 @@ var tools = []string{
 	// lint
 	"github.com/golang/lint/golint",
 	"github.com/kisielk/errcheck",
+	"github.com/alecthomas/gometalinter",
 	// format
 	"golang.org/x/tools/cmd/goimports",
 	"sourcegraph.com/sqs/goreturns",
