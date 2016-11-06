@@ -7,7 +7,7 @@ import (
 )
 
 var tools = []string{
-	// "github.com/nsf/gocode",
+	"github.com/nsf/gocode",
 	// lint
 	"github.com/golang/lint/golint",
 	"github.com/kisielk/errcheck",
@@ -43,7 +43,7 @@ func main() {
 		if err := exec.Command(cmd, targs...).Run(); err != nil {
 			fmt.Fprintln(os.Stderr, err)
 		}
-		fmt.Printf("%v .√\n", t)
+		fmt.Printf("%v  √\n", t)
 	}
 
 }
