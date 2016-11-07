@@ -19,6 +19,8 @@ var tools = []string{
 	"golang.org/x/tools/cmd/oracle",
 	"github.com/rogpeppe/godef",
 	"golang.org/x/tools/cmd/gorename",
+	// doc
+	"github.com/zmb3/gogetdoc",
 	// dependency graph
 	"github.com/kisielk/godepgraph",
 	// benchmark
