@@ -9,7 +9,7 @@ import (
 var tools = []string{
 	"github.com/nsf/gocode",
 	// lint
-	"github.com/golang/lint/golint",
+	"golang.org/x/lint/golint",
 	"github.com/kisielk/errcheck",
 	"github.com/alecthomas/gometalinter",
 	// format
